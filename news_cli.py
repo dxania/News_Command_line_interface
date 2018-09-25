@@ -30,9 +30,9 @@ def bbc_news():
     news_articles = json_file['articles']
 
     for news in news_articles:
-        click.echo(click.style(news['title'], fg='green', bold=True))
+        click.secho(news['title'], fg='green', bold=True)
         click.echo(news['description'])
-        click.echo("Find more on: " + news['url'])
+        click.secho("Find more on: " + click.style(news['url'], bold = True))
         click.echo("")
 
 def aljeez():
@@ -42,9 +42,9 @@ def aljeez():
     news_articles = json_file['articles']
 
     for news in news_articles:
-        click.echo(click.style(news['title'], fg='green', bold=True))
+        click.secho(news['title'], fg='green', bold=True)
         click.echo(news['description'])
-        click.echo("Find more on: " + news['url'])
+        click.secho("Find more on: " + click.style(news['url'], bold = True))
         click.echo("")
 
 def abc():
@@ -54,9 +54,9 @@ def abc():
     news_articles = json_file['articles']
 
     for news in news_articles:
-        click.echo(click.style(news['title'], fg='green', bold=True))
+        click.secho(news['title'], fg='green', bold=True)
         click.echo(news['description'])
-        click.echo("Find more on: " + news['url'])
+        click.secho("Find more on: " + click.style(news['url'], bold = True))
         click.echo("")
 
 def bbc_sport():
@@ -66,9 +66,9 @@ def bbc_sport():
     news_articles = json_file['articles']
 
     for news in news_articles:
-        click.echo(click.style(news['title'], fg='green', bold=True))
+        click.secho(news['title'], fg='green', bold=True)
         click.echo(news['description'])
-        click.echo("Find more on: " + news['url'])
+        click.secho("Find more on: " + click.style(news['url'], bold = True))
         click.echo("")
 
 
