@@ -30,5 +30,11 @@ Click
 ``` 
 git clone https://github.com/dxania/News_Command_line_interface.git
 ```
+
+## How to use
+1. Run the program from the file directory
+``` python3 news_cli.py```
+2. Follow the prompts as they follow
+
 ## API Reference
 News API ON https://newsapi.org/
