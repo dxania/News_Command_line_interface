@@ -11,7 +11,7 @@ def choose_source():
     print("       3 for ABC News")
     print("       4 for BBC Sport")
 
-    option = int(input("Select Preffered News Source: "))
+    option = int(click.prompt("Select Preffered News Source"))
     if option == 1:
         bbc_news()
     elif option == 2:
