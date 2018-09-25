@@ -2,9 +2,9 @@
 A command line interface that consumes a news API. 
 
 ## Features
-User is offered a list of four news sources.
-User is able to make a choice of a preferred news source.
-User gets back a list of the top 10 headlines from the preferred source. A news headline contains a title, description and a url in case the user needs to follow up on the news story.
+1. A user is offered a list of four news sources.
+2. The user is able to make a choice of a preferred news source.
+3. The user gets back a list of the top 10 headlines from the preferred source. A news headline contains a title, description and a url in case the user needs to follow up on the news story.
 
 ## Getting started
 These instructions will get you a copy of the program on your local machine for development and testing purposes
